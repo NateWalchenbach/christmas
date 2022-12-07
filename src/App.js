@@ -1,14 +1,15 @@
-import "./App.css";
-import 
-function App() {
+import React from "react";
+import ReactPlayer from "react-player";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* REACT PLAYHERE HERE
-         */}
-      </header>
+    <div>
+      <ReactPlayer
+        controls
+        loop
+        url={"https://www.youtube.com/watch?v=cE4yArMbIVc"}
+      />
     </div>
   );
-}
+};
 
 export default App;
